@@ -9,10 +9,10 @@
 ### About the Experiment 
 
 Plot the root locus for the given transfer function and show
-i. Break away point
-ii. Intersection with Imaginary axis,
-iii. Range of K for Stability
-iv. Closed loop transfer function at any value of K
+(i.) Break away point
+(ii.) Intersection with Imaginary axis,
+(iii.) Range of K for Stability
+(iv.) Closed loop transfer function at any value of K
 
 <b>Name of Developer | <b> Dr. Rajeev Kumar Chauhan 
 :--|:--|
