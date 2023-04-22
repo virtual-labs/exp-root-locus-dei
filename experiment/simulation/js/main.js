@@ -76,11 +76,34 @@ function addval() {
      brk= -b2/2/a2;
     line_valx =[];
      line_valy =[];
-     
-    for(i=-30;i<30;i=i+0.1)
+     if(poles[0].y>poles[1].y)
+    {    for(i=-30;i<poles[1].y;i=i+0.1)
+        {
+            line_valx.push(i);
+            line_valy.push({x:brk,y:i});
+        }
+        line_valy.push({x:brk,y:poles[1].y});
+        for(i=poles[0].y;i<30;i=i+0.1)
+        {
+            line_valx.push(i);
+            line_valy.push({x:brk,y:i});
+        }
+        line_valy.push({x:brk,y:poles[0].y});
+    }
+    else
     {
-        line_valx.push(i);
-        line_valy.push({x:brk,y:i});
+        for(i=-30;i<poles[0].y;i=i+0.1)
+        {
+            line_valx.push(i);
+            line_valy.push({x:brk,y:i});
+        }
+        line_valy.push({x:brk,y:poles[0].y});
+        for(i=poles[1].y;i<30;i=i+0.1)
+        {
+            line_valx.push(i);
+            line_valy.push({x:brk,y:i});
+        }
+        line_valy.push({x:brk,y:poles[1].y});
     }
     lc = 1;
     document.getElementById("line1").setAttribute("style", "color:blue");
@@ -240,6 +263,24 @@ function cwidth(ms) {
             pointRadius: 2,
             data: [{x:brk,y:0}],
             label:"Break away point"
+          },
+          {
+            pointStyle:'circle',
+            rotation:45,
+            borderWidth: 1,
+            borderColor: "rgb(0,255,0)",
+            pointRadius: 2,
+            data:[{x:brk,y:poles[0].y}],
+            label:"locus starting point"
+          },
+          {
+            pointStyle:'circle',
+            rotation:45,
+            borderWidth: 2,
+            borderColor: "rgb(0,255,0)",
+            pointRadius: 2,
+            data:[{x:brk,y:poles[1].y}],
+            label:"locus starting point"
           },
         {
             data: line_valy,
