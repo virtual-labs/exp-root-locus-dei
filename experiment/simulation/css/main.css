@@ -1,6 +1,8 @@
 h1 {
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     margin: none;
+    color: blue;
+    text-align: center;
 }
 
 header {
@@ -49,6 +51,7 @@ body {
     width: 30%;
     float: left;
     height: 65vh;
+    overflow-y: scroll;
 }
 
 #input-statements {
@@ -185,6 +188,15 @@ body {
     border-radius: 15px;
     overflow-y: scroll;
     padding-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th, td{
+    padding: 15px;
 }
 
 .mhead {
@@ -344,6 +356,7 @@ header {
 .conclusions h1 {
     color: cadetblue;
     position: relative;
+    text-align: left;
     background: none;
     margin: 5px 0;
 }
