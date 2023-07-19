@@ -1,0 +1,62 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "In the root locus plot, the number of branches equals:",
+      "answers": {
+        "a": "The number of zeros of the system",
+        "b": "The number of breakaway points",
+        "c": "The number of poles of the system",
+        "d": "The number of intersections between the locus and the imaginary axis"
+      },
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The root locus plot is symmetrical with respect to:",
+      "answers": {
+        "a": "The real axis",
+        "b": "The imaginary axis",
+        "c": "The origin (0, 0)",
+        "d": "The breakaway points"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The root locus plot helps in determining the stability of a system by analyzing:",
+      "answers": {
+        "a": "The magnitude response",
+        "b": "The phase response",
+        "c": "The damping ratio",
+        "d": "The location of poles in the complex plane"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the gain of the system is reduced to a zero value, the roots of the system in the s-plane",
+      "answers": {
+        "a": "Coincide with zero",
+        "b": "Move away from zero",
+        "c": "Move away from poles",
+        "d": "Coincide with the poles"
+      },
+      "correctAnswer": "d",
+          "difficulty": "beginner"
+    },
+    {
+      "question": "When the number of poles is equal to the number of zeroes, how many branches of root locus tends towards infinity?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "0",
+        "d": "Cannot determine"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
