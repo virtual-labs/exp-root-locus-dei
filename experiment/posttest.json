@@ -2,35 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In the root locus plot, the number of branches equals:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The number of zeros of the system",
+        "b": "The number of breakaway points",
+        "c": "The number of poles of the system",
+        "d": "The number of intersections between the locus and the imaginary axis"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The root locus plot is symmetrical with respect to:",
+      "answers": {
+        "a": "The real axis",
+        "b": "The imaginary axis",
+        "c": "The origin (0, 0)",
+        "d": "The breakaway points"
       },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The root locus plot helps in determining the stability of a system by analyzing:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The magnitude response",
+        "b": "The phase response",
+        "c": "The damping ratio",
+        "d": "The location of poles in the complex plane"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the gain of the system is reduced to a zero value, the roots of the system in the s-plane",
+      "answers": {
+        "a": "Coincide with zero",
+        "b": "Move away from zero",
+        "c": "Move away from poles",
+        "d": "Coincide with the poles"
+      },
+      "correctAnswer": "d",
+          "difficulty": "beginner"
+    },
+    {
+      "question": "When the number of poles is equal to the number of zeroes, how many branches of root locus tends towards infinity?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "0",
+        "d": "Cannot determine"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
