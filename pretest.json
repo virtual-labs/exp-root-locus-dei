@@ -1,0 +1,61 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The root locus technique is most applicable to:",
+      "answers": {
+        "a": "Single-input, single-output (SISO) systems",
+        "b": "Multiple-input, multiple-output (MIMO) systems",
+        "c": "Nonlinear systems",
+        "d": "Discrete-time systems"
+      },
+
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the root locus plot, stable regions are represented by poles located in:",
+      "answers": {
+        "a": "The right-half of the complex plane",
+        "b": "The left-half of the complex plane",
+        "c": "The upper half of the complex plane",
+        "d": "The lower half of the complex plane"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The root locus plot shows:",
+      "answers": {
+        "a": "The magnitude response of a system",
+        "b": "The phase response of a system",
+        "c": "The locations of the system's poles as K varies",
+        "d": "The locations of the system's zeros as K varies"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "Which of the following statements about root locus is true?",
+      "answers": {
+        "a": "The root locus plot always starts at the origin",
+        "b": "The root locus plot is symmetric with respect to the real axis",
+        "c": "The root locus plot represents the locations of the system's zeros",
+        "d": "The root locus plot is not influenced by the values of the system's poles"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+        {
+      "question": "What is the number of the root locus segments which do not terminate on zeroes?",
+      "answers": {
+        "a": "The number of poles",
+        "b": "The number of zeroes",
+        "c": "The difference between the number of poles and zeroes",
+        "d": "The sum of the number of poles and the number of the zeroes"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
