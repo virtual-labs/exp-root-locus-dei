@@ -1,8 +1,7 @@
-<!-- Remove all lines above this line before making changes to the file -->
 ### Contributors
 
-Sr No | Name | Faculty or Student | Department| Institute | 
-:--|:--|:--|:--|:--|
-1 | Dr. Rajeev Kumar Chauhan | Faculty | Department of Electrical Engineering | Dayalbagh Educational Institute (Deemed to be University) Agra | 
-2 | Mr. Ansh Mathur | Intern | Department of Electrical Engineering | Dayalbagh Educational Institute (Deemed to be University) Agra | 
-
+| Sr No | Name | Faculty or Student | Email ID | Department| Institute | 
+| :--|:--|:--|:--|:--|:--|
+| 1 | Dr. Rajeev Kumar Chauhan | Faculty | rajeevnitj@gmail.com | Department of Electrical Engineering | Dayalbagh Educational Institute (Deemed to be University) Agra | 
+| 2 | Mr. Ansh Mathur | Web Developer | mathuransh02@gmail.com | Department of Electrical Engineering | Dayalbagh Educational Institute (Deemed to be University) Agra | 
+| 3 | Mr. Praveen Kumar | Web Developer | nikkikumar398@gmail.com | Department of Electrical Engineering | Dayalbagh Educational Institute (Deemed to be University) Agra | 
